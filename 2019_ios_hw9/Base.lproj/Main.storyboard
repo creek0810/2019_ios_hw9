@@ -1,24 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZLs-8h-8tL">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.47"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Test View Controller-->
+        <scene sceneID="7ot-4A-xK5">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="G3f-EY-UXk" customClass="TestViewController" customModule="_019_ios_hw9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="taY-u9-Mnh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="Vb5-sb-AMU">
+                                <rect key="frame" x="0.0" y="263" width="414" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13_1080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="Cjn-ET-U5b">
+                                        <rect key="frame" x="0.0" y="81" width="406" height="160"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ij1-9p-quC"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Cjn-ET-U5b" id="VjA-pa-UEv"/>
+                        <outlet property="scrollView" destination="Vb5-sb-AMU" id="j7j-pF-m3s"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1N-GE-8Fz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1157" y="255"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="JgP-Jp-LJv">
+            <objects>
+                <viewController id="ZLs-8h-8tL" customClass="TestViewController" customModule="_019_ios_hw9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zPe-q6-hMR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ztk-Wc-ma0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dYE-tF-EmO">
+                                        <rect key="frame" x="0.0" y="0.0" width="2898" height="896"/>
+                                        <subviews>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAx-vx-SUF">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="13_1080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="BJS-FL-HGH">
+                                                        <rect key="frame" x="83" y="28" width="240" height="128"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="BJS-FL-HGH" firstAttribute="width" secondItem="tAx-vx-SUF" secondAttribute="width" id="Afa-hC-3O2"/>
+                                                    <constraint firstItem="BJS-FL-HGH" firstAttribute="height" secondItem="tAx-vx-SUF" secondAttribute="height" id="yM5-0b-LGP"/>
+                                                </constraints>
+                                            </scrollView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IC5-hi-dU0">
+                                                <rect key="frame" x="414" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="14_1080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="Cm1-sC-4Ih">
+                                                        <rect key="frame" x="83" y="28" width="240" height="128"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="Cm1-sC-4Ih" firstAttribute="width" secondItem="IC5-hi-dU0" secondAttribute="width" id="kLs-mc-952"/>
+                                                    <constraint firstItem="Cm1-sC-4Ih" firstAttribute="height" secondItem="IC5-hi-dU0" secondAttribute="height" id="ngr-HN-Yeu"/>
+                                                </constraints>
+                                            </scrollView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUa-DR-I4I">
+                                                <rect key="frame" x="828" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="15_1080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="R1D-is-8zT">
+                                                        <rect key="frame" x="83" y="28" width="240" height="128"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="R1D-is-8zT" firstAttribute="width" secondItem="CUa-DR-I4I" secondAttribute="width" id="Olk-ul-ECN"/>
+                                                    <constraint firstItem="R1D-is-8zT" firstAttribute="height" secondItem="CUa-DR-I4I" secondAttribute="height" id="T8F-UR-rKs"/>
+                                                </constraints>
+                                            </scrollView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f5I-q0-9lF">
+                                                <rect key="frame" x="1242" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="16_1080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="ljh-bR-0AL">
+                                                        <rect key="frame" x="83" y="28" width="240" height="128"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="ljh-bR-0AL" firstAttribute="height" secondItem="f5I-q0-9lF" secondAttribute="height" id="UiO-HQ-lRu"/>
+                                                    <constraint firstItem="ljh-bR-0AL" firstAttribute="width" secondItem="f5I-q0-9lF" secondAttribute="width" id="Vf7-D7-q9P"/>
+                                                </constraints>
+                                            </scrollView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lk2-R0-ydb">
+                                                <rect key="frame" x="1656" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="17_1080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="4cr-Wj-Ca2">
+                                                        <rect key="frame" x="83" y="28" width="240" height="128"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="4cr-Wj-Ca2" firstAttribute="width" secondItem="Lk2-R0-ydb" secondAttribute="width" id="A3X-GU-Lcv"/>
+                                                    <constraint firstItem="4cr-Wj-Ca2" firstAttribute="height" secondItem="Lk2-R0-ydb" secondAttribute="height" id="TjE-KQ-dXU"/>
+                                                </constraints>
+                                            </scrollView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wv5-La-0rs">
+                                                <rect key="frame" x="2070" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="18_1080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="UAV-qE-gO7">
+                                                        <rect key="frame" x="83" y="28" width="240" height="128"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="UAV-qE-gO7" firstAttribute="width" secondItem="wv5-La-0rs" secondAttribute="width" id="dVf-7e-4VY"/>
+                                                    <constraint firstItem="UAV-qE-gO7" firstAttribute="height" secondItem="wv5-La-0rs" secondAttribute="height" id="iuf-rl-hlE"/>
+                                                </constraints>
+                                            </scrollView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Kv-NW-n9k">
+                                                <rect key="frame" x="2484" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="19_1080_1920" translatesAutoresizingMaskIntoConstraints="NO" id="YNO-mM-aKZ">
+                                                        <rect key="frame" x="83" y="28" width="240" height="128"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="YNO-mM-aKZ" firstAttribute="width" secondItem="1Kv-NW-n9k" secondAttribute="width" id="1QN-G7-ARm"/>
+                                                    <constraint firstItem="YNO-mM-aKZ" firstAttribute="height" secondItem="1Kv-NW-n9k" secondAttribute="height" id="mc9-ze-8wd"/>
+                                                </constraints>
+                                            </scrollView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="tAx-vx-SUF" firstAttribute="height" secondItem="dYE-tF-EmO" secondAttribute="height" id="eiW-Dn-swq"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dYE-tF-EmO" firstAttribute="leading" secondItem="ztk-Wc-ma0" secondAttribute="leading" id="5Mk-ge-P6n"/>
+                                    <constraint firstItem="BJS-FL-HGH" firstAttribute="width" secondItem="ztk-Wc-ma0" secondAttribute="width" id="ASC-GN-lBM"/>
+                                    <constraint firstItem="dYE-tF-EmO" firstAttribute="top" secondItem="ztk-Wc-ma0" secondAttribute="top" id="Lmr-ec-kZQ"/>
+                                    <constraint firstItem="tAx-vx-SUF" firstAttribute="width" secondItem="ztk-Wc-ma0" secondAttribute="width" id="hfP-G2-QF1"/>
+                                    <constraint firstAttribute="bottom" secondItem="dYE-tF-EmO" secondAttribute="bottom" id="jZp-pH-QyN"/>
+                                    <constraint firstAttribute="trailing" secondItem="dYE-tF-EmO" secondAttribute="trailing" id="l7x-8y-qJt"/>
+                                    <constraint firstItem="dYE-tF-EmO" firstAttribute="height" secondItem="ztk-Wc-ma0" secondAttribute="height" id="lkO-ey-SfI"/>
+                                </constraints>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="AsR-mK-TJS">
+                                <rect key="frame" x="87" y="800" width="239" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="pageChange:" destination="ZLs-8h-8tL" eventType="valueChanged" id="4Ka-fL-Aej"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ztk-Wc-ma0" firstAttribute="top" secondItem="zPe-q6-hMR" secondAttribute="top" id="WEa-VP-8fN"/>
+                            <constraint firstItem="ztk-Wc-ma0" firstAttribute="trailing" secondItem="5kE-9T-QXO" secondAttribute="trailing" id="gXs-Pc-7co"/>
+                            <constraint firstItem="ztk-Wc-ma0" firstAttribute="bottom" secondItem="zPe-q6-hMR" secondAttribute="bottom" id="wB6-fK-SSl"/>
+                            <constraint firstItem="ztk-Wc-ma0" firstAttribute="leading" secondItem="5kE-9T-QXO" secondAttribute="leading" id="yb8-qB-T4D"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5kE-9T-QXO"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainScrollView" destination="ztk-Wc-ma0" id="Hb2-Ni-hpP"/>
+                        <outlet property="pageControl" destination="AsR-mK-TJS" id="LhF-SQ-4Xg"/>
+                        <outletCollection property="scrollViewCollection" destination="tAx-vx-SUF" collectionClass="NSMutableArray" id="8Nf-Oi-Zc8"/>
+                        <outletCollection property="scrollViewCollection" destination="IC5-hi-dU0" collectionClass="NSMutableArray" id="cNU-xw-gHK"/>
+                        <outletCollection property="scrollViewCollection" destination="CUa-DR-I4I" collectionClass="NSMutableArray" id="Ukw-vj-vbH"/>
+                        <outletCollection property="scrollViewCollection" destination="f5I-q0-9lF" collectionClass="NSMutableArray" id="cBb-XU-2RF"/>
+                        <outletCollection property="scrollViewCollection" destination="Lk2-R0-ydb" collectionClass="NSMutableArray" id="rSm-7y-jen"/>
+                        <outletCollection property="scrollViewCollection" destination="wv5-La-0rs" collectionClass="NSMutableArray" id="FVm-Jr-bEC"/>
+                        <outletCollection property="scrollViewCollection" destination="1Kv-NW-n9k" collectionClass="NSMutableArray" id="UII-Ih-090"/>
+                        <outletCollection property="imageViewCollection" destination="BJS-FL-HGH" collectionClass="NSMutableArray" id="eZt-Uy-IfV"/>
+                        <outletCollection property="imageViewCollection" destination="Cm1-sC-4Ih" collectionClass="NSMutableArray" id="QuT-0T-gwT"/>
+                        <outletCollection property="imageViewCollection" destination="R1D-is-8zT" collectionClass="NSMutableArray" id="vvs-eq-Kch"/>
+                        <outletCollection property="imageViewCollection" destination="ljh-bR-0AL" collectionClass="NSMutableArray" id="jYO-k8-7RW"/>
+                        <outletCollection property="imageViewCollection" destination="4cr-Wj-Ca2" collectionClass="NSMutableArray" id="6EK-4v-0Cd"/>
+                        <outletCollection property="imageViewCollection" destination="UAV-qE-gO7" collectionClass="NSMutableArray" id="Yvt-UP-KPV"/>
+                        <outletCollection property="imageViewCollection" destination="YNO-mM-aKZ" collectionClass="NSMutableArray" id="e0e-b2-3aM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grv-E5-5J1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="347.82608695652175" y="254.46428571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="13_1080_1920" width="1920" height="1080"/>
+        <image name="14_1080_1920" width="1920" height="1080"/>
+        <image name="15_1080_1920" width="1920" height="1080"/>
+        <image name="16_1080_1920" width="1920" height="1080"/>
+        <image name="17_1080_1920" width="1922" height="1080"/>
+        <image name="18_1080_1920" width="1922" height="1080"/>
+        <image name="19_1080_1920" width="1922" height="1080"/>
+    </resources>
 </document>

@@ -8,11 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        for pageView in scrollView.subviews {
+            if pageView.isKind(of: UIView.self){
+                return pageView
+            }
+        }
+        return nil
     }
 
 

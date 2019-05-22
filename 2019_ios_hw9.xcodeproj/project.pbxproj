@@ -12,6 +12,7 @@
 		4921957E2295231E00FA56F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921957C2295231E00FA56F2 /* Main.storyboard */; };
 		492195802295232000FA56F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4921957F2295232000FA56F2 /* Assets.xcassets */; };
 		492195832295232000FA56F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492195812295232000FA56F2 /* LaunchScreen.storyboard */; };
+		4921958B229533F400FA56F2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921958A229533F400FA56F2 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4921957F2295232000FA56F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492195822295232000FA56F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492195842295232000FA56F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4921958A229533F400FA56F2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				492195782295231E00FA56F2 /* AppDelegate.swift */,
 				4921957A2295231E00FA56F2 /* ViewController.swift */,
 				4921957C2295231E00FA56F2 /* Main.storyboard */,
+				4921958A229533F400FA56F2 /* TestViewController.swift */,
 				4921957F2295232000FA56F2 /* Assets.xcassets */,
 				492195812295232000FA56F2 /* LaunchScreen.storyboard */,
 				492195842295232000FA56F2 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4921957B2295231E00FA56F2 /* ViewController.swift in Sources */,
+				4921958B229533F400FA56F2 /* TestViewController.swift in Sources */,
 				492195792295231E00FA56F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
