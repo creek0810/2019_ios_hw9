@@ -24,13 +24,9 @@ class TestViewController : UIViewController, UIScrollViewDelegate{
         pageControl.currentPage = curPage
         if curPage + 1 < 7{
             scrollViewCollection[curPage + 1].zoomScale = 1.0
-            scrollView.contentOffset = CGPoint(x: 500, y: 1200)
-
         }
         if curPage - 1 >= 0 {
             scrollViewCollection[curPage - 1].zoomScale = 1.0
-            scrollView.contentOffset = CGPoint(x: 500, y: 1200)
-
         }
     }
     
